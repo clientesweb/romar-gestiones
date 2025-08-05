@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://romar-gestiones.vercel.app/sitemap.xml
+
+# Disallow admin areas (if any in the future)
+Disallow: /admin/
+Disallow: /api/
+
+# Allow important pages
+Allow: /
+Allow: /contacto
+Allow: /proyectos
+Allow: /images/
