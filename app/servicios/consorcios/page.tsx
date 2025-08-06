@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     title: "Administración de Consorcios Profesional | RoMar Gestiones",
     description:
       "Gestión transparente y eficiente de consorcios en Buenos Aires. Incluye administración de gastos, mantenimiento de áreas comunes, resolución de conflictos y comunicación clara.",
-    url: "https://romar-gestiones.vercel.app/servicios/consorcios",
+    url: "https://www.romargestiones.com.ar/servicios/consorcios",
     images: [
       {
         url: "/images/services/consorcios-banner.webp",
