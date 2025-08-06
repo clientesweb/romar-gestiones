@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     title: "Gestoría Náutica Especializada | RoMar Gestiones",
     description:
       "Trámites náuticos profesionales: matriculación, registro, transferencias y seguros para embarcaciones. Asesoramiento experto para tu embarcación en Buenos Aires.",
-    url: "https://romar-gestiones.vercel.app/servicios/nautica",
+    url: "https://www.romargestiones.com.ar/servicios/nautica",
     images: [
       {
         url: "/images/services/nautica-banner.webp",
