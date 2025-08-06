@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     title: "Gestoría Automotor Rápida y Segura | RoMar Gestiones",
     description:
       "Simplifica tus trámites vehiculares: patentes, transferencias, gestión de flotas y documentación. Servicio profesional y eficiente en Buenos Aires.",
-    url: "https://romar-gestiones.vercel.app/servicios/automotor",
+    url: "https://www.romargestiones.com.ar/servicios/automotor",
     images: [
       {
         url: "/images/services/automotor-banner.webp",
