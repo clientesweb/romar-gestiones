@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { ChevronDown, ChevronUp } from "lucide-react"
+import { ChevronDown, ChevronUp } from 'lucide-react'
 import Link from "next/link"
 import WhatsAppIcon from "./whatsapp-icon"
 import Image from "next/image"
@@ -10,7 +10,7 @@ import FadeInSection from "./fade-in-section"
 export default function ServicesSection() {
   const [openAccordion, setOpenAccordion] = useState<number | null>(null)
 
-  const whatsappNumber = "5491130849514"
+  const whatsappNumber = "541132951164"
   const whatsappMessage = "Hola, me interesa conocer más sobre sus servicios de gestoría integral."
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`
 
