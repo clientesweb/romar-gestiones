@@ -6,7 +6,7 @@ import { useState } from "react"
 import Header from "@/components/header"
 import Footer from "@/components/footer"
 import FloatingWhatsApp from "@/components/floating-whatsapp"
-import { Mail, MapPin, Clock, CheckCircle } from "lucide-react"
+import { Mail, MapPin, Clock, CheckCircle } from 'lucide-react'
 import WhatsAppIcon from "@/components/whatsapp-icon"
 import Image from "next/image"
 import Link from "next/link"
@@ -131,7 +131,7 @@ export default function ContactoPageContent() {
 ${data.mensaje}
 
 ---
-✅ *Consulta enviada desde:* romar-gestiones.vercel.app
+✅ *Consulta enviada desde:* romargestiones.com.ar
 📞 *Responder por WhatsApp para continuar la conversación*
 
 #RoMarGestiones #ConsultaWeb #GestoriaIntegral`
