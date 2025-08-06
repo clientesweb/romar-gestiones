@@ -6,7 +6,7 @@ import { MapPin, Mail, Clock, Instagram, Facebook } from 'lucide-react'
 import WhatsAppIcon from "./whatsapp-icon"
 
 export default function Footer() {
-  const whatsappNumber = "541132951164"
+  const whatsappNumber = "5491130849514"
   const whatsappMessage = "Hola, me interesa conocer más sobre sus servicios de gestoría integral."
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`
 
@@ -19,7 +19,7 @@ export default function Footer() {
           <div className="sm:col-span-2 lg:col-span-1">
             <div className="mb-4 sm:mb-6">
               <Image
-                src="/images/logo-romar-gestiones.png"
+                src="/images/logo-blanco.webp"
                 alt="RoMar Gestiones"
                 width={180}
                 height={60}
@@ -43,7 +43,7 @@ export default function Footer() {
                 <WhatsAppIcon className="w-4 h-4 sm:w-5 sm:h-5 text-white" />
               </Link>
               <Link
-                href="https://instagram.com/romargestioness"
+                href="https://instagram.com/romargestiones"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-8 h-8 sm:w-10 sm:h-10 bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 rounded-full flex items-center justify-center transition-all duration-300"
@@ -52,7 +52,7 @@ export default function Footer() {
                 <Instagram className="w-4 h-4 sm:w-5 sm:h-5 text-white" />
               </Link>
               <Link
-                href="https://facebook.com/romargestioness"
+                href="https://facebook.com/romargestiones"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-8 h-8 sm:w-10 sm:h-10 bg-[#1877F2] hover:bg-[#166FE5] rounded-full flex items-center justify-center transition-colors duration-300"
@@ -239,10 +239,10 @@ export default function Footer() {
                 <div>
                   <p className="font-poppins text-white/90 text-xs sm:text-sm">Email</p>
                   <Link
-                    href="mailto:gestión inmobiliaria.romargestiones@gmail.com"
+                    href="mailto:romargestiones@gmail.com"
                     className="font-poppins font-semibold text-white hover:text-blue-400 transition-colors duration-300 text-sm break-all"
                   >
-                   romargestiones@gmail.com
+                    romargestiones@gmail.com
                   </Link>
                 </div>
               </div>
