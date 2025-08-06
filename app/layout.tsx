@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     "maestros mayor obra",
     "RoMar Gestiones",
   ],
-  authors: [{ name: "RoMar Gestiones", url: "https://romar-gestiones.vercel.app" }],
+  authors: [{ name: "RoMar Gestiones", url: "https://www.romargestiones.com.ar" }],
   creator: "RoMar Gestiones",
   publisher: "RoMar Gestiones",
   formatDetection: {
@@ -223,6 +223,7 @@ export default function RootLayout({
                       "@type": "Service",
                       name: "Mantenimiento Edilicio",
                       description: "Servicios de mantenimiento integral de edificios y estructuras",
+                      url: "https://www.romargestiones.com.ar/servicios/mantenimiento",
                     },
                   },
                   {
@@ -231,6 +232,7 @@ export default function RootLayout({
                       "@type": "Service",
                       name: "Administración de Consorcios",
                       description: "Administración profesional de propiedades horizontales",
+                      url: "https://www.romargestiones.com.ar/servicios/consorcios",
                     },
                   },
                   {
@@ -239,6 +241,7 @@ export default function RootLayout({
                       "@type": "Service",
                       name: "Gestoría Inmobiliaria",
                       description: "Gestión integral de propiedades y contratos inmobiliarios",
+                      url: "https://www.romargestiones.com.ar/servicios/inmobiliaria",
                     },
                   },
                   {
@@ -247,6 +250,25 @@ export default function RootLayout({
                       "@type": "Service",
                       name: "Gestoría Automotor",
                       description: "Trámites automotor: transferencias, informes de dominio, cédulas",
+                      url: "https://www.romargestiones.com.ar/servicios/automotor",
+                    },
+                  },
+                  {
+                    "@type": "Offer",
+                    itemOffered: {
+                      "@type": "Service",
+                      name: "Gestoría Náutica",
+                      description: "Trámites náuticos: matriculación, registro, transferencias",
+                      url: "https://www.romargestiones.com.ar/servicios/nautica",
+                    },
+                  },
+                  {
+                    "@type": "Offer",
+                    itemOffered: {
+                      "@type": "Service",
+                      name: "Seguros Integrales",
+                      description: "Seguros de vida, personales, patrimoniales, ART y de retiro",
+                      url: "https://www.romargestiones.com.ar/servicios/seguros",
                     },
                   },
                 ],
