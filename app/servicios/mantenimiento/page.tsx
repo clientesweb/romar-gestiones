@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     title: "Servicios de Mantenimiento Integral | RoMar Gestiones",
     description:
       "Mantenimiento preventivo, correctivo y especializado para construcciones nuevas. Profesionales matriculados garantizan el cuidado integral de tu propiedad en Buenos Aires.",
-    url: "https://romar-gestiones.vercel.app/servicios/mantenimiento",
+    url: "https://www.romargestiones.com.ar/servicios/mantenimiento",
     images: [
       {
         url: "/images/services/mantenimiento-banner.webp",
