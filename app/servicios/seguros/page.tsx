@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     title: "Seguros Integrales para Personas y Patrimonio | RoMar Gestiones",
     description:
       "Protección completa con seguros de vida, personales, patrimoniales, ART y de retiro. Asesoramiento personalizado para asegurar tu futuro y el de tu familia en Buenos Aires.",
-    url: "https://romar-gestiones.vercel.app/servicios/seguros",
+    url: "https://www.romargestiones.com.ar/servicios/seguros",
     images: [
       {
         url: "/images/services/seguros-banner.webp",
