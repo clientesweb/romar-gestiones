@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     title: "Contacto - RoMar Gestiones | Gestoría Integral en Buenos Aires",
     description:
       "Contacta con RoMar Gestiones para consultas sobre gestoría integral. Atención personalizada, profesionales matriculados. WhatsApp: 11 3084-9514. Consulta gratuita.",
-    url: "https://romar-gestiones.vercel.app/contacto",
+    url: "https://www.romargestiones.com.ar/contacto",
     type: "website",
     locale: "es_AR",
     siteName: "RoMar Gestiones",
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     images: ["/images/contacto-banner.webp"],
   },
   alternates: {
-    canonical: "https://romar-gestiones.vercel.app/contacto",
+    canonical: "https://www.romargestiones.com.ar/contacto",
   },
   robots: {
     index: true,
