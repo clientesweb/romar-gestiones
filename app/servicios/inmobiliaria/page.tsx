@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     title: "Gestoría Inmobiliaria Integral | RoMar Gestiones",
     description:
       "Gestión completa de propiedades: escrituras, informes de dominio, cédulas catastrales y trámites notariales. Asesoramiento experto para tus operaciones inmobiliarias en Buenos Aires.",
-    url: "https://romar-gestiones.vercel.app/servicios/inmobiliaria",
+    url: "https://www.romargestiones.com.ar/servicios/inmobiliaria",
     images: [
       {
         url: "/images/services/inmobiliaria-banner.webp",
