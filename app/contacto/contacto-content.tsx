@@ -40,7 +40,7 @@ export default function ContactoPageContent() {
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [isSubmitted, setIsSubmitted] = useState(false)
 
-  const whatsappNumber = "5491130849514"
+  const whatsappNumber = "541132951164"
   const whatsappMessage = "Hola, me interesa contactar con RoMar Gestiones para una consulta."
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`
 
@@ -284,7 +284,7 @@ ${data.mensaje}
                       rel="noopener noreferrer"
                       className="font-poppins text-brand-green hover:text-[#20b358] transition-colors duration-300 text-sm sm:text-base lg:text-lg"
                     >
-                      +54 9 11 3084-9514
+                      +54 9 11 3295-1164
                     </a>
                   </div>
                 </div>
