@@ -1,6 +1,6 @@
 import type React from "react"
 import type { Metadata, Viewport } from "next"
-import { Montserrat, Poppins } from "next/font/google"
+import { Montserrat, Poppins } from 'next/font/google'
 import "./globals.css"
 import HeaderAnnouncement from "@/components/header-announcement"
 import Script from "next/script"
@@ -32,7 +32,7 @@ export const viewport: Viewport = {
 }
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://romar-gestiones.vercel.app"),
+  metadataBase: new URL("https://www.romargestiones.com.ar"),
   title: {
     default: "RoMar Gestiones - Gestoría Integral en Buenos Aires",
     template: "%s | RoMar Gestiones",
@@ -81,15 +81,15 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: "https://romar-gestiones.vercel.app",
+    canonical: "https://www.romargestiones.com.ar",
     languages: {
-      "es-AR": "https://romar-gestiones.vercel.app",
+      "es-AR": "https://www.romargestiones.com.ar",
     },
   },
   openGraph: {
     type: "website",
     locale: "es_AR",
-    url: "https://romar-gestiones.vercel.app",
+    url: "https://www.romargestiones.com.ar",
     siteName: "RoMar Gestiones",
     title: "RoMar Gestiones - Gestoría Integral en Buenos Aires",
     description:
@@ -190,7 +190,7 @@ export default function RootLayout({
               name: "RoMar Gestiones",
               description:
                 "Servicios de gestoría integral: mantenimiento edilicio, administración de consorcios, gestoría inmobiliaria, automotor y náutica en Buenos Aires.",
-              url: "https://romar-gestiones.vercel.app",
+              url: "https://www.romargestiones.com.ar",
               telephone: "+5491130849514",
               email: "info@romargestioness.com.ar",
               address: {
