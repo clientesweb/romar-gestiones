@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     title: "RoMar Gestiones - Gestoría Integral en Buenos Aires",
     description:
       "Servicios de gestoría integral: mantenimiento, administración de consorcios, gestoría inmobiliaria y automotor. Profesionales matriculados en Buenos Aires.",
-    url: "https://romar-gestiones.vercel.app",
+    url: "https://www.romargestiones.com.ar",
     images: [
       {
         url: "/images/banner-principal-romar-gestiones-oficial.webp",
