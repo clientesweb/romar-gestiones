@@ -2,11 +2,11 @@
 
 import Link from "next/link"
 import Image from "next/image"
-import { MapPin, Mail, Clock, Instagram, Facebook } from "lucide-react"
+import { MapPin, Mail, Clock, Instagram, Facebook } from 'lucide-react'
 import WhatsAppIcon from "./whatsapp-icon"
 
 export default function Footer() {
-  const whatsappNumber = "5491130849514"
+  const whatsappNumber = "541132951164"
   const whatsappMessage = "Hola, me interesa conocer más sobre sus servicios de gestoría integral."
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`
 
@@ -239,10 +239,10 @@ export default function Footer() {
                 <div>
                   <p className="font-poppins text-white/90 text-xs sm:text-sm">Email</p>
                   <Link
-                    href="mailto:info@romargestioness.com.ar"
+                    href="mailto:gestión inmobiliaria.romargestiones@gmail.com"
                     className="font-poppins font-semibold text-white hover:text-blue-400 transition-colors duration-300 text-sm break-all"
                   >
-                    info@romargestioness.com.ar
+                    gestión inmobiliaria.romargestiones@gmail.com
                   </Link>
                 </div>
               </div>
