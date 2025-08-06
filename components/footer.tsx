@@ -242,7 +242,7 @@ export default function Footer() {
                     href="mailto:gestión inmobiliaria.romargestiones@gmail.com"
                     className="font-poppins font-semibold text-white hover:text-blue-400 transition-colors duration-300 text-sm break-all"
                   >
-                    gestión inmobiliaria.romargestiones@gmail.com
+                   romargestiones@gmail.com
                   </Link>
                 </div>
               </div>
