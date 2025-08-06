@@ -3,13 +3,13 @@
 import Header from "@/components/header"
 import Footer from "@/components/footer"
 import FloatingWhatsApp from "@/components/floating-whatsapp"
-import { Building2, DollarSign, Users, MessageSquare, Phone } from "lucide-react"
+import { Building2, DollarSign, Users, MessageSquare, Phone } from 'lucide-react'
 import Link from "next/link"
 import WhatsAppIcon from "@/components/whatsapp-icon"
 import Image from "next/image"
 
 export default function ServiciosConsorciosClient() {
-  const whatsappNumber = "5491130849514"
+  const whatsappNumber = "541132951164"
   const whatsappMessage = "Hola, me interesa conocer más sobre administración de consorcios."
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`
 
