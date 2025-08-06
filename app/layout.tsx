@@ -191,7 +191,7 @@ export default function RootLayout({
               description:
                 "Servicios de gestoría integral: mantenimiento edilicio, administración de consorcios, gestoría inmobiliaria, automotor y náutica en Buenos Aires.",
               url: "https://www.romargestiones.com.ar",
-              telephone: "+5491130849514",
+              telephone: "+541132951164",
               email: "info@romargestioness.com.ar",
               address: {
                 "@type": "PostalAddress",
@@ -207,7 +207,7 @@ export default function RootLayout({
               sameAs: [
                 "https://instagram.com/romargestioness",
                 "https://facebook.com/romargestioness",
-                "https://wa.me/5491130849514",
+                "https://wa.me/541132951164",
               ],
               serviceArea: {
                 "@type": "Place",
