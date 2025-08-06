@@ -4,7 +4,7 @@ import Link from "next/link"
 import WhatsAppIcon from "./whatsapp-icon"
 
 export default function FloatingWhatsApp() {
-  const whatsappNumber = "5491130849514"
+  const whatsappNumber = "541132951164"
   const whatsappMessage = "Hola, me interesa conocer más sobre sus servicios de gestoría integral."
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`
 
