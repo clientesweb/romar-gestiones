@@ -3,13 +3,13 @@
 import Header from "@/components/header"
 import Footer from "@/components/footer"
 import FloatingWhatsApp from "@/components/floating-whatsapp"
-import { FileText, Home, Search, MapPin, Phone } from "lucide-react"
+import { FileText, Home, Search, MapPin, Phone } from 'lucide-react'
 import Link from "next/link"
 import WhatsAppIcon from "@/components/whatsapp-icon"
 import Image from "next/image"
 
 export default function ServiciosInmobiliariaClient() {
-  const whatsappNumber = "5491130849514"
+  const whatsappNumber = "541132951164"
   const whatsappMessage = "Hola, me interesa conocer más sobre gestoría inmobiliaria."
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`
 
