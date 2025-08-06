@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     title: "Proyectos - RoMar Gestiones",
     description:
       "Galería de proyectos realizados: mantenimiento edilicio, instalaciones eléctricas, obras completas. Calidad y profesionalismo garantizado.",
-    url: "https://romar-gestiones.vercel.app/proyectos",
+    url: "https://www.romargestiones.com.ar/proyectos",
     images: [
       {
         url: "/images/og-image-romar-gestiones.jpg",
