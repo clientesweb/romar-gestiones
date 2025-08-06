@@ -3,7 +3,7 @@ import WhatsAppIcon from "./whatsapp-icon"
 import Image from "next/image"
 
 export default function FinalCTABanner() {
-  const whatsappNumber = "5491130849514"
+  const whatsappNumber = "541132951164"
   const whatsappMessage =
     "Hola, estoy listo para trabajar con RoMar Gestiones. Me interesa conocer más sobre sus servicios."
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`
