@@ -7,6 +7,7 @@ import ServicesSection from "@/components/services-section"
 import ProfessionalsBanner from "@/components/professionals-banner"
 import WhyChooseUs from "@/components/why-choose-us"
 import ProjectsGallery from "@/components/projects-gallery"
+import WorkWithUsBanner from "@/components/work-with-us-banner"
 import ReviewsSlider from "@/components/reviews-slider"
 import FinalCTABanner from "@/components/final-cta-banner"
 import FloatingWhatsApp from "@/components/floating-whatsapp"
@@ -49,9 +50,10 @@ export default function HomePage() {
       <ProfessionalsBanner />
       <WhyChooseUs />
       <ProjectsGallery />
+      <WorkWithUsBanner />
       <ReviewsSlider />
       <FinalCTABanner />
-      <div className="border-t border-gray-200"></div> {/* Nueva línea de separación */}
+      <div className="border-t border-gray-200"></div>
       <FloatingWhatsApp />
       <Footer />
     </div>
