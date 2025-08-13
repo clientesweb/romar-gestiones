@@ -1,308 +1,187 @@
-"use client"
-
-import Link from "next/link"
 import Image from "next/image"
-import { MapPin, Mail, Clock, Instagram, Facebook } from 'lucide-react'
-import WhatsAppIcon from "./whatsapp-icon"
+import Link from "next/link"
+import { MapPin, Phone, Mail, Clock, Facebook, Instagram, Linkedin } from "lucide-react"
 
 export default function Footer() {
-  const whatsappNumber = "5491130849514"
-  const whatsappMessage = "Hola, me interesa conocer más sobre sus servicios de gestoría integral."
-  const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`
-
   return (
-    <footer className="bg-[#1e3a5f] text-white">
-      {/* Sección principal del footer */}
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
+    <footer className="bg-brand-dark-blue text-white">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Logo y descripción */}
-          <div className="sm:col-span-2 lg:col-span-1">
-            <div className="mb-4 sm:mb-6">
+          <div className="lg:col-span-1">
+            <div className="mb-6">
               <Image
                 src="/images/logo-blanco.webp"
-                alt="RoMar Gestiones"
+                alt="RoMar Gestiones Logo"
                 width={180}
                 height={60}
-                className="h-10 sm:h-12 w-auto"
+                className="h-12 w-auto"
               />
             </div>
-            <p className="font-poppins text-white/90 text-sm leading-relaxed mb-4 sm:mb-6">
-              <span className="font-semibold">Gestoría integral</span> con profesionales matriculados y experimentados.
-              Soluciones personalizadas para todas tus necesidades.
+            <p className="text-gray-300 text-sm leading-relaxed mb-6">
+              Empresa líder en gestiones integrales con más de 10 años de experiencia brindando servicios profesionales
+              de calidad.
             </p>
-
-            {/* Redes sociales */}
-            <div className="flex gap-3 sm:gap-4">
-              <Link
-                href={whatsappUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-8 h-8 sm:w-10 sm:h-10 bg-[#25D366] hover:bg-[#20b358] rounded-full flex items-center justify-center transition-colors duration-300"
-                aria-label="WhatsApp"
-              >
-                <WhatsAppIcon className="w-4 h-4 sm:w-5 sm:h-5 text-white" />
-              </Link>
-              <Link
-                href="https://instagram.com/romargestiones"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-8 h-8 sm:w-10 sm:h-10 bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 rounded-full flex items-center justify-center transition-all duration-300"
-                aria-label="Instagram"
-              >
-                <Instagram className="w-4 h-4 sm:w-5 sm:h-5 text-white" />
-              </Link>
-              <Link
-                href="https://facebook.com/romargestiones"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-8 h-8 sm:w-10 sm:h-10 bg-[#1877F2] hover:bg-[#166FE5] rounded-full flex items-center justify-center transition-colors duration-300"
+            <div className="flex space-x-4">
+              <a
+                href="#"
+                className="text-gray-300 hover:text-white transition-colors duration-300"
                 aria-label="Facebook"
               >
-                <Facebook className="w-4 h-4 sm:w-5 sm:h-5 text-white" />
-              </Link>
+                <Facebook className="w-5 h-5" />
+              </a>
+              <a
+                href="#"
+                className="text-gray-300 hover:text-white transition-colors duration-300"
+                aria-label="Instagram"
+              >
+                <Instagram className="w-5 h-5" />
+              </a>
+              <a
+                href="#"
+                className="text-gray-300 hover:text-white transition-colors duration-300"
+                aria-label="LinkedIn"
+              >
+                <Linkedin className="w-5 h-5" />
+              </a>
             </div>
           </div>
 
           {/* Servicios */}
           <div>
-            <h3 className="font-montserrat font-extrabold text-base sm:text-lg mb-4 sm:mb-6">Servicios</h3>
-            <ul className="space-y-2 sm:space-y-3">
-              <li>
-                <button
-                  onClick={() => {
-                    if (window.location.pathname !== "/") {
-                      window.location.href = "/#servicios"
-                    } else {
-                      document.getElementById("servicios")?.scrollIntoView({ behavior: "smooth" })
-                    }
-                  }}
-                  className="font-poppins text-white/90 hover:text-white text-sm transition-colors duration-300 text-left"
-                >
-                  Mantenimiento Integral
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => {
-                    if (window.location.pathname !== "/") {
-                      window.location.href = "/#servicios"
-                    } else {
-                      document.getElementById("servicios")?.scrollIntoView({ behavior: "smooth" })
-                    }
-                  }}
-                  className="font-poppins text-white/90 hover:text-white text-sm transition-colors duration-300 text-left"
-                >
-                  Administración de Consorcios
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => {
-                    if (window.location.pathname !== "/") {
-                      window.location.href = "/#servicios"
-                    } else {
-                      document.getElementById("servicios")?.scrollIntoView({ behavior: "smooth" })
-                    }
-                  }}
-                  className="font-poppins text-white/90 hover:text-white text-sm transition-colors duration-300 text-left"
-                >
-                  Gestoría Inmobiliaria
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => {
-                    if (window.location.pathname !== "/") {
-                      window.location.href = "/#servicios"
-                    } else {
-                      document.getElementById("servicios")?.scrollIntoView({ behavior: "smooth" })
-                    }
-                  }}
-                  className="font-poppins text-white/90 hover:text-white text-sm transition-colors duration-300 text-left"
-                >
-                  Gestoría Automotor
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => {
-                    if (window.location.pathname !== "/") {
-                      window.location.href = "/#servicios"
-                    } else {
-                      document.getElementById("servicios")?.scrollIntoView({ behavior: "smooth" })
-                    }
-                  }}
-                  className="font-poppins text-white/90 hover:text-white text-sm transition-colors duration-300 text-left"
-                >
-                  Gestoría Náutica
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => {
-                    if (window.location.pathname !== "/") {
-                      window.location.href = "/#servicios"
-                    } else {
-                      document.getElementById("servicios")?.scrollIntoView({ behavior: "smooth" })
-                    }
-                  }}
-                  className="font-poppins text-white/90 hover:text-white text-sm transition-colors duration-300 text-left"
-                >
-                  Trámites Notariales
-                </button>
-              </li>
-            </ul>
-          </div>
-
-          {/* Enlaces útiles */}
-          <div>
-            <h3 className="font-montserrat font-extrabold text-base sm:text-lg mb-4 sm:mb-6">Enlaces</h3>
-            <ul className="space-y-2 sm:space-y-3">
-              <li>
-                <button
-                  onClick={() => {
-                    if (window.location.pathname !== "/") {
-                      window.location.href = "/#nosotros"
-                    } else {
-                      document.getElementById("nosotros")?.scrollIntoView({ behavior: "smooth" })
-                    }
-                  }}
-                  className="font-poppins text-white/90 hover:text-white text-sm transition-colors duration-300 text-left"
-                >
-                  Sobre Nosotros
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => {
-                    if (window.location.pathname !== "/") {
-                      window.location.href = "/#servicios"
-                    } else {
-                      document.getElementById("servicios")?.scrollIntoView({ behavior: "smooth" })
-                    }
-                  }}
-                  className="font-poppins text-white/90 hover:text-white text-sm transition-colors duration-300 text-left"
-                >
-                  Nuestros Servicios
-                </button>
-              </li>
+            <h3 className="text-lg font-semibold mb-6">Nuestros Servicios</h3>
+            <ul className="space-y-3">
               <li>
                 <Link
-                  href="/contacto"
-                  className="font-poppins text-white/90 hover:text-white text-sm transition-colors duration-300"
+                  href="/servicios/mantenimiento"
+                  className="text-gray-300 hover:text-white transition-colors duration-300 text-sm"
                 >
-                  Contacto
+                  Mantenimiento Edilicio
                 </Link>
               </li>
               <li>
                 <Link
-                  href="/contacto"
-                  className="font-poppins text-white/90 hover:text-white text-sm transition-colors duration-300"
+                  href="/servicios/consorcios"
+                  className="text-gray-300 hover:text-white transition-colors duration-300 text-sm"
                 >
-                  Solicitar Presupuesto
+                  Administración de Consorcios
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/servicios/seguros"
+                  className="text-gray-300 hover:text-white transition-colors duration-300 text-sm"
+                >
+                  Gestión de Seguros
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/servicios/inmobiliaria"
+                  className="text-gray-300 hover:text-white transition-colors duration-300 text-sm"
+                >
+                  Gestoría Inmobiliaria
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/servicios/automotor"
+                  className="text-gray-300 hover:text-white transition-colors duration-300 text-sm"
+                >
+                  Gestoría Automotor
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/servicios/nautica"
+                  className="text-gray-300 hover:text-white transition-colors duration-300 text-sm"
+                >
+                  Gestoría Náutica
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Enlaces rápidos */}
+          <div>
+            <h3 className="text-lg font-semibold mb-6">Enlaces Rápidos</h3>
+            <ul className="space-y-3">
+              <li>
+                <Link href="/" className="text-gray-300 hover:text-white transition-colors duration-300 text-sm">
+                  Inicio
                 </Link>
               </li>
               <li>
                 <Link
                   href="/proyectos"
-                  className="font-poppins text-white/90 hover:text-white text-sm transition-colors duration-300"
+                  className="text-gray-300 hover:text-white transition-colors duration-300 text-sm"
                 >
-                  Nuestros Proyectos
+                  Proyectos
                 </Link>
+              </li>
+              <li>
+                <Link
+                  href="/contacto"
+                  className="text-gray-300 hover:text-white transition-colors duration-300 text-sm"
+                >
+                  Contacto
+                </Link>
+              </li>
+              <li>
+                <a href="#" className="text-gray-300 hover:text-white transition-colors duration-300 text-sm">
+                  Política de Privacidad
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-gray-300 hover:text-white transition-colors duration-300 text-sm">
+                  Términos y Condiciones
+                </a>
               </li>
             </ul>
           </div>
 
           {/* Información de contacto */}
           <div>
-            <h3 className="font-montserrat font-extrabold text-base sm:text-lg mb-4 sm:mb-6">Contacto</h3>
-            <div className="space-y-3 sm:space-y-4">
-              {/* WhatsApp */}
-              <div className="flex items-center gap-3">
-                <WhatsAppIcon className="w-4 h-4 sm:w-5 sm:h-5 text-[#25D366] flex-shrink-0" />
-                <div>
-                  <p className="font-poppins text-white/90 text-xs sm:text-sm">WhatsApp</p>
-                  <Link
-                    href={whatsappUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="font-poppins font-semibold text-white hover:text-[#25D366] transition-colors duration-300 text-sm"
-                  >
-                    +54 9 11 3084-9514
-                  </Link>
-                </div>
+            <h3 className="text-lg font-semibold mb-6">Contacto</h3>
+            <div className="space-y-4">
+              <div className="flex items-start space-x-3">
+                <MapPin className="w-5 h-5 text-brand-light-blue mt-0.5 flex-shrink-0" />
+                <p className="text-gray-300 text-sm">Buenos Aires, Argentina</p>
               </div>
-
-              {/* Email */}
-              <div className="flex items-center gap-3">
-                <Mail className="w-4 h-4 sm:w-5 sm:h-5 text-blue-400 flex-shrink-0" />
-                <div>
-                  <p className="font-poppins text-white/90 text-xs sm:text-sm">Email</p>
-                  <Link
-                    href="mailto:romargestiones@gmail.com"
-                    className="font-poppins font-semibold text-white hover:text-blue-400 transition-colors duration-300 text-sm break-all"
-                  >
-                    romargestiones@gmail.com
-                  </Link>
-                </div>
+              <div className="flex items-center space-x-3">
+                <Phone className="w-5 h-5 text-brand-light-blue flex-shrink-0" />
+                <a
+                  href="tel:+541132951164"
+                  className="text-gray-300 hover:text-white transition-colors duration-300 text-sm"
+                >
+                  +54 11 3295-1164
+                </a>
               </div>
-
-              {/* Ubicación */}
-              <div className="flex items-center gap-3">
-                <MapPin className="w-4 h-4 sm:w-5 sm:h-5 text-red-400 flex-shrink-0" />
-                <div>
-                  <p className="font-poppins text-white/90 text-xs sm:text-sm">Ubicación</p>
-                  <p className="font-poppins font-semibold text-white text-sm">Buenos Aires, Argentina</p>
-                </div>
+              <div className="flex items-center space-x-3">
+                <Mail className="w-5 h-5 text-brand-light-blue flex-shrink-0" />
+                <a
+                  href="mailto:romargestiones@gmail.com"
+                  className="text-gray-300 hover:text-white transition-colors duration-300 text-sm"
+                >
+                  romargestiones@gmail.com
+                </a>
               </div>
-
-              {/* Horarios */}
-              <div className="flex items-center gap-3">
-                <Clock className="w-4 h-4 sm:w-5 sm:h-5 text-yellow-400 flex-shrink-0" />
-                <div>
-                  <p className="font-poppins text-white/90 text-xs sm:text-sm">Horarios</p>
-                  <p className="font-poppins font-semibold text-white text-sm">Lun - Vie: 9:00 - 18:00</p>
+              <div className="flex items-start space-x-3">
+                <Clock className="w-5 h-5 text-brand-light-blue mt-0.5 flex-shrink-0" />
+                <div className="text-gray-300 text-sm">
+                  <p>Lun - Vie: 9:00 - 18:00</p>
+                  <p>Sáb: 9:00 - 13:00</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
-      {/* Línea divisoria */}
-      <div className="border-t border-white/20">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-4 sm:py-6">
-          <div className="flex flex-col sm:flex-row items-center justify-between gap-3 sm:gap-4">
-            <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4">
-              <p className="font-poppins text-white/80 text-xs sm:text-sm text-center sm:text-left">
-                © 2024 RoMar Gestiones. Todos los derechos reservados.
-              </p>
-              <p className="font-poppins text-white/60 text-xs text-center sm:text-left">
-                Desarrollado por{" "}
-                <Link
-                  href="https://dualitydomain.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-blue-400 hover:text-blue-300 transition-colors duration-300 font-semibold"
-                >
-                  Duality Domain
-                </Link>
-              </p>
-            </div>
-            <div className="flex gap-4 sm:gap-6">
-              <Link
-                href="/privacidad"
-                className="font-poppins text-white/80 hover:text-white text-xs sm:text-sm transition-colors duration-300"
-              >
-                Política de Privacidad
-              </Link>
-              <Link
-                href="/terminos"
-                className="font-poppins text-white/80 hover:text-white text-xs sm:text-sm transition-colors duration-300"
-              >
-                Términos y Condiciones
-              </Link>
-            </div>
+        {/* Línea divisoria */}
+        <div className="border-t border-gray-600 mt-12 pt-8">
+          <div className="flex flex-col md:flex-row justify-between items-center">
+            <p className="text-gray-400 text-sm mb-4 md:mb-0">© 2024 RoMar Gestiones. Todos los derechos reservados.</p>
+            <p className="text-gray-400 text-sm">Desarrollado con ❤️ para brindar el mejor servicio</p>
           </div>
         </div>
       </div>
